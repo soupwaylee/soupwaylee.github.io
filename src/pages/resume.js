@@ -1,12 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
-import ProfileCard from "../components/profileCard"
-
-import "../pages/index.css"
 
 
 export default () => (
   <Layout>
-    <ProfileCard/>
+    <div>
+      <h1>Resume</h1>
+      <p>Stefan's Resume (1 page)</p>
+      <p>Stefan's CV (2 pages)</p>
+    </div>
   </Layout>
 )

@@ -1,0 +1,16 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialMediaIconContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.socialMediaIcon {
+  padding: 10px;
+}
