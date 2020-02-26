@@ -4,7 +4,7 @@ date: "2019-12-10"
 title: "Six Koans @ DPS"
 ---
 
-![](./images/IMG_5584.jpeg){:class="img-responsive"}
+![](./IMG_5584.jpg)
 
 The previous Tuesday marked the end of three joyous months at [Digital Product School](https://digitalproductschool.io/) (DPS) with a rollercoaster ride of productivity, stakeholder communication, emotions and learnings. The latter I've spent the past half-hour to condense into this short read, i.e. six essential [Koans](https://www.merriam-webster.com/dictionary/koan).
 
