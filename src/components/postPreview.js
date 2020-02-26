@@ -18,15 +18,13 @@ const PostPreview = ({ post }) => (
       paddingBottom: "2rem"
     }}
   >
-    <div key={post.id}>
-      <h1>
-        <StyledLink to={post.frontmatter.path}>
-          {post.frontmatter.title}  
-        </StyledLink>
-      </h1>
-      <h5>{post.frontmatter.date}</h5>
-      <p>{post.excerpt}</p>
-    </div>
+    <h1>
+      <StyledLink to={post.frontmatter.path}>
+        {post.frontmatter.title}  
+      </StyledLink>
+    </h1>
+    <h5>{post.frontmatter.date}</h5>
+    <p>{post.excerpt}</p>
   </div>
 )
 

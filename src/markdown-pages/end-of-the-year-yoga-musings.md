@@ -4,7 +4,7 @@ date: "2019-12-28"
 title: "End of the Year Yoga Musings"
 ---
 
-![]({{ site.baseurl }}/img/yoga.jpeg){:class="img-responsive"}
+![](./images/yoga.jpeg){:class="img-responsive"}
 My official Yoga journey began in February 2018 with me signing up for a gym with a new member discount for referrals (ha, this is an important detail because otherwise I probably would not have done it) and then dropping into a medium/advance level Jivamukti class. Since then, I've been attending classes up to three times a week and especially in the past few months I've been noticing a shift of focus within my practice. 
 
 I've went from figuring out the high level details of poses to executing transitions between asanas properly to more intricate aspects all the more inspiringly challenging but at times also frustrating af. In this context I'd like to share the latest learnings from the top of my stack.

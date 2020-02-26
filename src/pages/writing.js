@@ -7,7 +7,7 @@ import PostPreview from "../components/postPreview"
 export default ( { data } ) => (
   <Layout>
       {data.allMarkdownRemark.edges.map(( { node } ) => (
-        <PostPreview post={node}/>  
+        <PostPreview key={node.id} post={node}/>  
       ))}
   </Layout>
 )

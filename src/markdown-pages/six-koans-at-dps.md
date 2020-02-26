@@ -4,6 +4,8 @@ date: "2019-12-10"
 title: "Six Koans @ DPS"
 ---
 
+![](./images/IMG_5584.jpeg){:class="img-responsive"}
+
 The previous Tuesday marked the end of three joyous months at [Digital Product School](https://digitalproductschool.io/) (DPS) with a rollercoaster ride of productivity, stakeholder communication, emotions and learnings. The latter I've spent the past half-hour to condense into this short read, i.e. six essential [Koans](https://www.merriam-webster.com/dictionary/koan).
 
 *At this point I'd like to thank our team Radlings for being the raddest team I could be part of so far. I learned more about myself as a person than 7 combined years of studying and I could not imagine a better team to share joy, laughter and my experience with. Thank you to the core team for accepting me into this program, providing guidance as well as confusion in the darkest hours and for gifting me the T-shirt that I will have to explain every time I wear it in public. Lastly, thank you in advance for reading this post and for giving me feedback on it.*
