@@ -1,12 +1,32 @@
 import React from "react"
+import { graphql } from 'gatsby'
 import Layout from "../components/layout"
-import { Link } from "gatsby"
+import PostPreview from "../components/postPreview"
 
 
-export default () => (
+export default ( { data } ) => (
   <Layout>
-    <div>
-      <Link to="/blog/first-post/">Go to my first Markdown blog post</Link>
-    </div>
+      {data.allMarkdownRemark.edges.map(( { node } ) => (
+        <PostPreview post={node}/>  
+      ))}
   </Layout>
 )
+
+export const query = graphql`
+  query {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      totalCount
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            date(formatString: "MM-DD-YYYY")
+            path
+          }
+          excerpt
+        }
+      }
+    }
+  }
+`
