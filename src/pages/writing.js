@@ -1,14 +1,13 @@
 import React from "react"
-import { graphql } from 'gatsby'
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import PostPreview from "../components/postPreview"
 
-
-export default ( { data } ) => (
+export default ({ data }) => (
   <Layout>
-      {data.allMarkdownRemark.edges.map(( { node } ) => (
-        <PostPreview key={node.id} post={node}/>  
-      ))}
+    {data.allMarkdownRemark.edges.map(({ node }) => (
+      <PostPreview key={node.id} post={node} />
+    ))}
   </Layout>
 )
 

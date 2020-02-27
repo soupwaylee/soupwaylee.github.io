@@ -1,17 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types"
 import styled from "@emotion/styled"
-
 
 const StyledNavLink = styled(Link)`
   padding: 3px;
-  color: black; 
+  color: black;
   text-decoration: none;
   &:hover {
     color: #e67d65;
   }
-`;
+`
 
 const Header = ({ menuLinks }) => (
   <header>
@@ -31,24 +30,27 @@ const Header = ({ menuLinks }) => (
         }}
       >
         <nav>
-          <ul style={{ 
-            margin: 0,
-            display: "flex", 
-            justifyContent: "space-between"
-          }}>
+          <ul
+            style={{
+              margin: 0,
+              display: "flex",
+              justifyContent: "space-between",
+            }}
+          >
             {menuLinks.map(link => (
-              <li 
-                key={ link.name } 
+              <li
+                key={link.name}
                 style={{
                   listStyleType: `none`,
                   padding: `1rem`,
-              }}>
-                <StyledNavLink 
+                }}
+              >
+                <StyledNavLink
                   activeStyle={{
                     // borderBottom: `2px solid #e67d65`,
-                    color: `#e67d65`
+                    color: `#e67d65`,
                   }}
-                  to={ link.link }
+                  to={link.link}
                 >
                   {link.name}
                 </StyledNavLink>

@@ -11,22 +11,22 @@ module.exports = {
     description: `A blog with ramblings on code, computer science, cooking and how to become a liver of life`,
     menuLinks: [
       {
-        name:'/home',
-        link:'/'
+        name: "/home",
+        link: "/",
       },
       {
-        name:'/writing',
-        link:'/writing/'
+        name: "/writing",
+        link: "/writing/",
       },
       {
-        name:'/about',
-        link:'/about/'
+        name: "/about",
+        link: "/about/",
       },
       {
-        name:'/resume',
-        link:'/resume/'
-      }
-    ]
+        name: "/resume",
+        link: "/resume/",
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-sharp`,
@@ -53,8 +53,8 @@ module.exports = {
             resolve: `gatsby-remark-katex`,
             options: {
               // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
-              strict: `ignore`
-            }
+              strict: `ignore`,
+            },
           },
           {
             resolve: `gatsby-remark-images`,
@@ -62,9 +62,9 @@ module.exports = {
               maxWidth: 580,
               ignoreFileExtensions: [],
             },
-          }
+          },
         ],
-      }
+      },
     },
     {
       resolve: `gatsby-plugin-typography`,
@@ -72,5 +72,5 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-  ]
+  ],
 }

@@ -4,9 +4,8 @@ import ProfileCard from "../components/profileCard"
 
 import "../pages/global.css"
 
-
 export default () => (
   <Layout>
-    <ProfileCard/>
+    <ProfileCard />
   </Layout>
 )
