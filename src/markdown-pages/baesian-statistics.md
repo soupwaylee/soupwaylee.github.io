@@ -109,8 +109,8 @@ Initially you were quite uncertain about the contents of the popcorn bag, since 
 
 In a nutshell, Machine Learning is the process of trying to find out ways to describe phenomena with an inherent sense of uncertainty using data that that might or might not be available to us. These uncertainties can be modeled using probability distributions - either over a discrete or continuous event space. Distributions are characterized by their parameters (usually aggregated in $$\theta$$ or $$\vec{\theta}$$), such as $$Uniform(\theta)$$, $$Bin(n, p)$$ or $$\mathcal{N}(\mu, \sigma^2)$$. These parameters in turn need to be estimated in the first place. A hypothesis *H* therefore corresponds to the assumption that $$\theta$$ has a certain value. The priors are therefore described with $$p(\theta)$$. We pick the priors based on how informed we are. Naturally this will then affect how we get to our conclusion. Sometimes the data *D* will be replaced with an *x* and the Bayes' law will then look like this
 
-$$p(\theta\mid x)=\frac{p(x\mid \theta)p(\theta)}{p(x)}.$$
+$$p(\theta\mid x)=\frac{p(x\mid \theta)\cdot p(\theta)}{p(x)}.$$
 
 --- 
 
-*Brendon J. Brewer's lecture notes from [STATS 331](https://www.stat.auckland.ac.nz/~brewer/stats331.pdf) proved to be super helpful on my way to grasping the topic of Bayesian inference and I somehow felt inspired to build a story based his first example after I went to see [Knives Out](https://www.imdb.com/title/tt8946378/) yesterday. (Photo by [Charles](https://unsplash.com/@charlesdeluvio) on [Unsplash](https://unsplash.com/))*
+*Brendon J. Brewer's lecture notes from [STATS 331](https://www.stat.auckland.ac.nz/~brewer/stats331.pdf) proved to be super helpful on my way to grasping the topic of Bayesian inference and I somehow felt inspired to build a story based his first example after I went to see [Knives Out](https://www.imdb.com/title/tt8946378/) yesterday.)*

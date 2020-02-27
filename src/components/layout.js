@@ -28,7 +28,7 @@ const Layout = ({ children }) => (
         <Header menuLinks={data.site.siteMetadata.menuLinks} />
         <div style={{
           margin: '0 auto',
-          maxWidth: 850,
+          maxWidth: 650,
           padding: '0px 1.0875rem 1.45rem',
           paddingTop: 0,
         }}>
