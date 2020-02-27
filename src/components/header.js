@@ -32,6 +32,7 @@ const Header = ({ menuLinks }) => (
       >
         <nav>
           <ul style={{ 
+            margin: 0,
             display: "flex", 
             justifyContent: "space-between"
           }}>
