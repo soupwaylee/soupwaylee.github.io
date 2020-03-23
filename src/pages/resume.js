@@ -27,7 +27,7 @@ const ResumePage = () => {
       <div>
         <h1>Resume</h1>
         <p>
-          <a href={resumePublicURL}>Stefan's Resume (1 pages)</a>
+          <a href={resumePublicURL}>Stefan's Resume (1 page)</a>
         </p>
         <p>
           <a href={cvPublicURL}>Stefan's CV (2 pages)</a>
