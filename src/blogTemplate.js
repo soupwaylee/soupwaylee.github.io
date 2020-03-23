@@ -19,7 +19,7 @@ const StyledNavLink = styled(Link)`
 
 export default function Template({ data }) {
   const { markdownRemark } = data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter, html, timeToRead } = markdownRemark
 
   return (
     <Layout>
@@ -31,7 +31,7 @@ export default function Template({ data }) {
       <div className="blog-post-container">
         <div className="blog-post">
           <h1>{frontmatter.title}</h1>
-          <h5>{frontmatter.date}</h5>
+          <h5>{frontmatter.date} &ensp; &#183; &ensp; {timeToRead} min read</h5>
           <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
@@ -68,8 +68,9 @@ export const pageQuery = graphql`
   query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
+      timeToRead
       frontmatter {
-        date(formatString: "MM-DD-YYYY")
+        date(formatString: "YYYY MMM DD")
         path
         title
       }

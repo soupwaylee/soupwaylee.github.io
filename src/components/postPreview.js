@@ -23,8 +23,7 @@ const PostPreview = ({ post }) => (
         {post.frontmatter.title}
       </StyledLink>
     </h1>
-    <h5>{post.frontmatter.date}</h5>
-    <p>{post.excerpt}</p>
+  <h5>{post.frontmatter.date} &ensp; &#183; &ensp; {post.timeToRead} min read</h5>
   </div>
 )
 

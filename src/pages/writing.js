@@ -18,9 +18,10 @@ export const query = graphql`
       edges {
         node {
           id
+          timeToRead
           frontmatter {
             title
-            date(formatString: "MM-DD-YYYY")
+            date(formatString: "YYYY MMM DD")
             path
           }
           excerpt
