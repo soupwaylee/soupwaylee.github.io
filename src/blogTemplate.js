@@ -26,14 +26,16 @@ export default function Template({ data }) {
       <Helmet>
         <meta charSet="utf-8" />
         <title>{frontmatter.title}</title>
-        <meta name="description" content={excerpt}/>
+        <meta name="description" content={excerpt} />
         <link rel="canonical" href={frontmatter.path} />
       </Helmet>
       <div className="blog-post-container">
         <div className="blog-post">
           <h1>{frontmatter.title}</h1>
           <p>
-            <small>{frontmatter.date} &ensp; &#183; &ensp; {timeToRead} min read</small>
+            <small>
+              {frontmatter.date} &ensp; &#183; &ensp; {timeToRead} min read
+            </small>
           </p>
           <div
             className="blog-post-content"
