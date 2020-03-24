@@ -28,7 +28,10 @@ const Layout = ({ children }) => (
                 name: "description",
                 content: data.site.siteMetadata.description,
               },
-              { name: "keywords", content: "sample, something" },
+              {
+                name: "keywords",
+                content: "soupwaylee, personal, blog"
+              },
             ]}
           />
           <Header menuLinks={data.site.siteMetadata.menuLinks} />
