@@ -1,22 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import styled from "@emotion/styled"
-import { rhythm } from "../utils/typography"
-import { Mail, Linkedin, GitHub, Instagram, Twitter } from "react-feather"
-
-
+import { Linkedin, GitHub, Instagram, Twitter } from "react-feather"
 import footerStyles from "../components/footer.module.css"
 
 
 const Footer = () => (
   <footer className={footerStyles.footerContainer}>
     <div className={footerStyles.socialMediaIconContainer}>
-      <div className={footerStyles.socialMediaIcon}>
-        <a href="mailto:soupwaylee@gmail.com">
-          <Mail/>
-        </a>
-      </div>
       <div className={footerStyles.socialMediaIcon}>
         <a href="https://www.linkedin.com/in/soupwaylee">
           <Linkedin/>
