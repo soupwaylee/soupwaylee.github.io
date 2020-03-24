@@ -32,7 +32,9 @@ export default function Template({ data }) {
       <div className="blog-post-container">
         <div className="blog-post">
           <h1>{frontmatter.title}</h1>
-          <h5>{frontmatter.date} &ensp; &#183; &ensp; {timeToRead} min read</h5>
+          <p>
+            <small>{frontmatter.date} &ensp; &#183; &ensp; {timeToRead} min read</small>
+          </p>
           <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}

@@ -2,7 +2,6 @@ import Typography from "typography"
 import theme from "typography-theme-parnassus"
 theme.overrideThemeStyles = ({ rhythm }, options) => ({
   "h2,h3,h4,h5,h6": {
-    marginTop: rhythm(3/2),
     marginBottom: rhythm(1/4)
   },
   a: {

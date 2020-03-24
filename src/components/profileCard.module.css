@@ -4,13 +4,3 @@
   justify-content: center;
   align-items: center;
 }
-
-.socialMediaIconContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.socialMediaIcon {
-  padding: 8px 9px 9px 0px;
-}

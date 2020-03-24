@@ -1,7 +1,9 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
+import rhythm from "../utils/typography"
 import Helmet from "react-helmet"
 import Header from "../components/header"
+import Footer from "../components/footer"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -39,12 +41,12 @@ const Layout = ({ children }) => (
             style={{
               margin: "0 auto",
               maxWidth: 650,
-              padding: "0px 1.0875rem 1.45rem",
-              paddingTop: 0,
+              padding: "1.45rem 1rem 1.45rem 1rem",
             }}
           >
             {children}
           </main>
+          <Footer/>
         </React.Fragment>
       )
     }}
