@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #e67d65;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid #e67d65;
+}

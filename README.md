@@ -1,3 +1,9 @@
+## Setup
+
+Using node v12.13.0 here.
+
+---
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
