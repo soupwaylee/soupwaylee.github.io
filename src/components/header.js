@@ -2,6 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import styled from "@emotion/styled"
+import { rhythm } from "../utils/typography"
+
 
 const StyledNavLink = styled(Link)`
   padding: 3px;
@@ -16,14 +18,17 @@ const Header = ({ menuLinks }) => (
   <header>
     <div
       style={{
-        marginBottom: "1.45rem",
+        marginBottom: rhythm(0.75),
       }}
     >
       <div
         style={{
           margin: "0 auto",
           maxWidth: 850,
-          padding: "1.45rem 1.0875rem",
+          paddingTop: rhythm(0.5),
+          paddingRight: rhythm(0.75),
+          paddingBottom: rhythm(0.5),
+          paddingLeft: rhythm(0.75),
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
@@ -41,6 +46,7 @@ const Header = ({ menuLinks }) => (
               <li
                 key={link.name}
                 style={{
+                  margin: 0,
                   listStyleType: `none`,
                   padding: `1rem`,
                 }}

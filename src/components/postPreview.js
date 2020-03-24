@@ -13,18 +13,14 @@ const StyledLink = styled(Link)`
 `
 
 const PostPreview = ({ post }) => (
-  <div
-    style={{
-      paddingBottom: "2rem",
-    }}
-  >
-    <h1>
+  <article>
+    <h2>
       <StyledLink to={post.frontmatter.path}>
         {post.frontmatter.title}
       </StyledLink>
-    </h1>
-  <h5>{post.frontmatter.date} &ensp; &#183; &ensp; {post.timeToRead} min read</h5>
-  </div>
+    </h2>
+    <small>{post.frontmatter.date} &ensp; &#183; &ensp; {post.timeToRead} min read</small>
+  </article>
 )
 
 export default PostPreview

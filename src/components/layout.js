@@ -35,7 +35,7 @@ const Layout = ({ children }) => (
             ]}
           />
           <Header menuLinks={data.site.siteMetadata.menuLinks} />
-          <div
+          <main
             style={{
               margin: "0 auto",
               maxWidth: 650,
@@ -44,7 +44,7 @@ const Layout = ({ children }) => (
             }}
           >
             {children}
-          </div>
+          </main>
         </React.Fragment>
       )
     }}
