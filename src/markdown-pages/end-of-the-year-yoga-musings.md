@@ -2,6 +2,7 @@
 path: "/writing/end-of-the-year-yoga-musings"
 date: "2019-12-28"
 title: "End of the Year Yoga Musings"
+peek: "Thoughts on my Yoga practice so far."
 ---
 
 ![](./yoga.jpeg)

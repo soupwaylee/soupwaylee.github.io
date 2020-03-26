@@ -2,9 +2,10 @@
 path: "/writing/a-corny-introduction-into-bae-sian-statistics"
 date: "2020-01-09"
 title: "A Corny Introduction into Bae-sian Statistics"
+peek: "An untold story with Bayes law and unwanted popcorn."
 ---
 
-Most Machine Learning theory books start out with an introduction into probability theory, specifically Bayesian statistics. A key concept in this field is Bayes' law and its subsequent application in most of the common ML concepts within Supervised (e.g. Linear Regression / Classification) and Unsupervised Learning (e.g. Clustering) or even Principle Component Analysis. Since examples using coin tosses or balls and urns are boring, I adapted a corny story to explain how someone might use the Bayes' law in their daily life. It's rounded off with an outlook into why and how (WIP tbh) this topic would be important in the ML context.
+Most Machine Learning theory books start out with an intro to probability theory, specifically Bayesian statistics. A key concept in this field is Bayes' law and its subsequent application in most of the common ML concepts of Supervised (e.g. Linear Regression / Classification) and Unsupervised Learning (e.g. Clustering) or even Principle Component Analysis. To explain how someone might use the Bayes' law in their actual daily life (no urns, balls and coin tosses), I adapted a corny story rounded off with an outlook into why and how (WIP tbh) this topic would be important in the ML context.
 
 You're going to the movies and want to share a medium popcorn with bae. By the time you get to the front of the popcorn queue you start a messy discussion about the flavor to the point that the cashier becomes increasingly irritated and ends up violently shoving two scoops into the bag without consulting you any further. Unfortunately, during your intense discourse, you missed out on which buckets the cashier took the popcorn from, but from the corner of your eye you saw that _at least one of the scoops was (to your dismay) salty_. You could settle with a mix of sweet and salty, but a salty-only bag is a no-go. As you exit the popcorn queue, you think that the cashier might still remember what he gave out, but ultimately you choose not to go back and ask. Instead, you take a few breaths and decide to conduct a test with your partner, because that would be much faster and you're very anxious to know this piece of information so that in the worst case you can go back into line and buy another bag of sweet popcorn for yourself (ugh!).
 
@@ -112,4 +113,4 @@ $$p(\theta\mid x)=\frac{p(x\mid \theta)\cdot p(\theta)}{p(x)}.$$
 
 ---
 
-_Brendon J. Brewer's lecture notes from [STATS 331](https://www.stat.auckland.ac.nz/~brewer/stats331.pdf) proved to be super helpful on my way to grasping the topic of Bayesian inference and I somehow felt inspired to build a story based his first example after I went to see [Knives Out](https://www.imdb.com/title/tt8946378/) yesterday.)_
+_Brendon J. Brewer's lecture notes from [STATS 331](https://www.stat.auckland.ac.nz/~brewer/stats331.pdf) proved to be super helpful on my way to grasping the topic of Bayesian inference and after seeing [Knives Out](https://www.imdb.com/title/tt8946378/) yesterday, I felt I somehow felt inspired to use my equally exceptional storytelling skills to explain this concept.)_

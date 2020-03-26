@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
-import Helmet from "react-helmet"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
@@ -22,7 +21,7 @@ const Layout = ({ children }) => (
     render={data => {
       return (
         <React.Fragment>
-          <Helmet
+          <Header 
             title={data.site.siteMetadata.title}
             meta={[
               {
@@ -34,8 +33,8 @@ const Layout = ({ children }) => (
                 content: "soupwaylee, personal, blog"
               },
             ]}
+            menuLinks={data.site.siteMetadata.menuLinks} 
           />
-          <Header menuLinks={data.site.siteMetadata.menuLinks} />
           <main
             style={{
               margin: "0 auto",

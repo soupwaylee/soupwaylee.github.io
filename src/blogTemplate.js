@@ -19,14 +19,13 @@ const StyledNavLink = styled(Link)`
 
 export default function Template({ data }) {
   const { markdownRemark } = data
-  const { frontmatter, html, timeToRead, excerpt } = markdownRemark
+  const { frontmatter, html, timeToRead } = markdownRemark
 
   return (
     <Layout>
       <Helmet>
-        <meta charSet="utf-8" />
         <title>{frontmatter.title}</title>
-        <meta name="description" content={excerpt} />
+        <meta name="description" content={frontmatter.peek} />
         <link rel="canonical" href={frontmatter.path} />
       </Helmet>
       <div className="blog-post-container">
@@ -79,6 +78,7 @@ export const pageQuery = graphql`
         date(formatString: "YYYY MMM DD")
         path
         title
+        peek
       }
     }
   }

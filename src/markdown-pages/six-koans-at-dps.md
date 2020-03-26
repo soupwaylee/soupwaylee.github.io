@@ -2,6 +2,7 @@
 path: "/writing/six-koans-at-dps"
 date: "2019-12-10"
 title: "Six Koans @ DPS"
+peek: "Six koans from my time as a Software Engineer at Digital Product School."
 ---
 
 ![](./IMG_5584.jpg)
