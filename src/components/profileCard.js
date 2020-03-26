@@ -21,8 +21,8 @@ const ProfileCard = () => (
         borderRadius: "20%",
       }}
     />
-    <p style={{ maxWidth: 250 }}>
-      Personal blog by Stefan Su My thoughts on your screen
+    <p style={{ width: 230 }}>
+      Here lies the Personal blog by Stefan Su
     </p>
   </div>
 )
