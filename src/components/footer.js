@@ -8,22 +8,22 @@ const Footer = () => (
     <div className={footerStyles.socialMediaIconContainer}>
       <div className={footerStyles.socialMediaIcon}>
         <a href="https://www.linkedin.com/in/soupwaylee">
-          <Linkedin/>
+          <Linkedin color="#e67d65"/>
         </a>
       </div>
       <div className={footerStyles.socialMediaIcon}>
         <a href="https://github.com/soupwaylee">
-          <GitHub/>
+          <GitHub color="#e67d65"/>
         </a>
       </div>
       <div className={footerStyles.socialMediaIcon}>
         <a href="http://instagram.com/soupwaylee">
-          <Instagram/>
+          <Instagram color="#e67d65"/>
         </a>
       </div>
       <div className={footerStyles.socialMediaIcon}>
         <a href="https://twitter.com/soupwaylee">
-          <Twitter/>
+          <Twitter color="#e67d65"/>
         </a>
       </div>
     </div>

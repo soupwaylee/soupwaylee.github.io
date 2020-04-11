@@ -15,5 +15,6 @@ a {
 }
 
 a:hover {
+  color: #e67d65;
   border-bottom: 2px solid #e67d65;
 }

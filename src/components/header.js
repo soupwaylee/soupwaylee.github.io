@@ -1,18 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import styled from "@emotion/styled"
 import { rhythm } from "../utils/typography"
 
-
-const StyledNavLink = styled(Link)`
-  padding: 3px;
-  color: black;
-  text-decoration: none;
-  &:hover {
-    color: #e67d65;
-  }
-`
 
 const Header = ({ menuLinks }) => (
   <header>
@@ -51,15 +41,18 @@ const Header = ({ menuLinks }) => (
                   padding: `1rem`,
                 }}
               >
-                <StyledNavLink
+                <Link
+                  style={{
+                    color: `black`,
+                  }}
                   activeStyle={{
-                    // borderBottom: `2px solid #e67d65`,
+                    borderBottom: `2px solid #e67d65`,
                     color: `#e67d65`,
                   }}
                   to={link.link}
                 >
                   {link.name}
-                </StyledNavLink>
+                </Link>
               </li>
             ))}
           </ul>

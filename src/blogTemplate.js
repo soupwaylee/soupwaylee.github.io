@@ -4,18 +4,9 @@ import Helmet from "react-helmet"
 import Layout from "./components/layout"
 import profilePic from "./components/profilePic.jpeg"
 import { rhythm } from "./utils/typography"
-import styled from "@emotion/styled"
 
 import "katex/dist/katex.min.css"
 
-const StyledNavLink = styled(Link)`
-  padding: 3px;
-  color: black;
-  text-decoration: none;
-  &:hover {
-    color: #e67d65;
-  }
-`
 
 export default function Template({ data }) {
   const { markdownRemark } = data
@@ -61,7 +52,7 @@ export default function Template({ data }) {
         />
         <p style={{ maxWidth: 225 }}>
           Personal blog by Stefan Su Feel free to{" "}
-          <StyledNavLink to={"/"}>reach out</StyledNavLink> 👈
+          <Link to={"/"}>reach out</Link> 👈
         </p>
       </div>
     </Layout>
