@@ -24,7 +24,7 @@ const SEO = ({ title, meta, description, image, slug, lang = 'en' }) => (
     render={data => {
       const { siteMetadata } = data.site;
       const metaDescription = description || siteMetadata.description;
-      const metaImage = image ? `${siteMetadata.siteUrl}/${image}` : siteMetadata.image;
+      const metaImage = `${siteMetadata.siteUrl}${image || siteMetadata.image}`;
       const url = `${siteMetadata.siteUrl}${slug}`;
 
       return (

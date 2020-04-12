@@ -10,7 +10,7 @@ module.exports = {
     author: `Stefan Su`,
     siteUrl: `https://www.soupwaylee.com`,
     description: `A blog by Stefan Su where he rambles about computer science, code, cooking and how to become a better liver of life.`,
-    image: `${__dirname}/src/components/profilePic.jpeg`,
+    image: `/static/profilePic.jpeg`,
     social: {
       twitter: `@soupwaylee`,
     },
