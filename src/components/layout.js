@@ -21,18 +21,7 @@ const Layout = ({ children }) => (
     render={data => {
       return (
         <React.Fragment>
-          <Header 
-            title={data.site.siteMetadata.title}
-            meta={[
-              {
-                name: "description",
-                content: data.site.siteMetadata.description,
-              },
-              {
-                name: "keywords",
-                content: "soupwaylee, personal, blog"
-              },
-            ]}
+          <Header
             menuLinks={data.site.siteMetadata.menuLinks} 
           />
           <main

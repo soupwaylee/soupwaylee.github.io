@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import ProfileCard from "../components/profileCard"
 import PostPreview from "../components/postPreview"
 
@@ -10,6 +11,7 @@ import "../pages/global.css"
 //TODO convert post list into a component
 export default ({ data }) => (
   <Layout>
+    <SEO />
     <ProfileCard />
     <>
       {data.allMarkdownRemark.edges.map(({ node }) => (

@@ -6,9 +6,13 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Stefan Su`,
-    // siteUrl: `https://www.stefansu.com`,
-    description: `A blog with ramblings on code, computer science, cooking and how to become a liver of life`,
+    title: `A Personal Blog by Stefan Su`,
+    author: `Stefan Su`,
+    siteUrl: `https://www.soupwaylee.com`,
+    description: `A blog by Stefan Su where he rambles about computer science, code, cooking and how to become a better liver of life.`,
+    social: {
+      twitter: `@soupwaylee`,
+    },
     menuLinks: [
       {
         name: "/home",
@@ -31,6 +35,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
-import Helmet from "react-helmet"
 import Layout from "./components/layout"
+import SEO from "./components/seo"
 import profilePic from "./components/profilePic.jpeg"
 import { rhythm } from "./utils/typography"
 
@@ -14,11 +14,11 @@ export default function Template({ data }) {
 
   return (
     <Layout>
-      <Helmet>
-        <title>{frontmatter.title}</title>
-        <meta name="description" content={frontmatter.peek} />
-        <link rel="canonical" href={frontmatter.path} />
-      </Helmet>
+      <SEO
+        title={frontmatter.title}
+        description={frontmatter.peek}
+        slug={frontmatter.path}
+      />
       <div className="blog-post-container">
         <div className="blog-post">
           <h1>{frontmatter.title}</h1>
