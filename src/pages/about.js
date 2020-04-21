@@ -17,15 +17,15 @@ export default () => (
         You can find him in the mountains, working on his Yoga practice,
         consuming and/or re-creating ethic food or reading the occasional book
         (latest:{" "}
-        <a href="https://www.goodreads.com/book/show/929.Memoirs_of_a_Geisha">
-          Memoirs of a Geisha
+        <a href="https://busterbenson.com/whyareweyelling/">
+          Why Are We Yelling?
         </a>
         )
       </p>
-      <p>February 2020 playlist:</p>
+      <p>April 2020 playlist:</p>
       <iframe
-        title="February 2020"
-        src="https://open.spotify.com/embed/playlist/6Z9Pus1xDCPBhwL40LDCw7"
+        title="April 2020"
+        src="https://open.spotify.com/embed/playlist/16Z04i8LjrNKHdAsDzQqxS"
         width="610"
         height="80"
         allowtransparency="true"
