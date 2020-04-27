@@ -89,8 +89,9 @@ Lastly, one should always bear in mind the trivial representation that holds for
 
 1. Don't confuse the group element in the $S_n$ group with the actual objects that are being permuted.
 2. The Cauchy notation has nothing to do with the cycle notation.
-3. The operation in the $S_n$ group is not commutative. So is matrix multiplication.
-4. From time to time researchers actually denote the matrix representation as the group elements. This caused the biggest confusion for me which led me to brushing up some fundamentals again. (And maybe that is their intention anyway)
+3. The operation in the $S_n$ group is not commutative. Neither is matrix multiplication.
+4. Diferent representations of the same group can have varying dimensions.
+5. From time to time researchers actually denote the matrix representation as the group elements. This caused the biggest confusion for me which led me to brushing up some fundamentals again. (And maybe that is their intention anyway)
 
 ---
 
