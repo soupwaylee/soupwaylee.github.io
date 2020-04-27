@@ -33,7 +33,7 @@ because we apply two cyclic permutations $1 \rightarrow 4 \rightarrow 2 \rightar
 
 *Cue on cycles: You can imagine an ordered row of numbered cards from one to five. When you start to move the cards in-place (meaning in the same row) to their new index and land at the position of the card you started with, you have found a cycle.*
 
-This example nicely illustrates the group operation of the permutation group $(S_5, \odot)$ which we will call "multiplication" from now on (but note that it is in fact a function composition). As opposed to multiplication with scalars, permutation multiplication is not commutative proven by the fact that the outcome of a permutation depends on the order in which the objects are swapped, i.e. $(12) \odot (13) \neq (13) \odot (12)$.
+This example nicely illustrates the group operation of the permutation group $(S_5, \odot)$ which we will call "multiplication" from now on (but note that it is in fact a function composition). As opposed to multiplication with scalars, permutation multiplication where the number of objects $n \geq 2$ is not commutative proven by the fact that the outcome of a permutation depends on the order in which the objects are swapped, i.e. $(12) \odot (13) \neq (13) \odot (12)$.
 
 ### Representing Permutations With Matrices
 
@@ -73,7 +73,7 @@ and based on that construct
 
 $$ D(314) =  \begin{pmatrix} 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 1 & 0 & 0 & 0 \end{pmatrix}. $$
 
-Note that this we have not proven the group representation for $S_5$, but only verified it for this specific instance.
+Note that we have not actually proven the group representation for $S_4$, but only verified it for this specific instance.
 
 Interestingly, we can even express and represent simple addition $(\R, +)$ using matrix multiplication. We simply need to find a representation matrix $D(\cdot)$, such that $D(a) \cdot D(b) = D(a+b)$ where $a, b$ are scalars in $\R$. If we ponder about it for a second (or longer), we find that 
 
@@ -82,6 +82,8 @@ $$ D(a) =  \begin{pmatrix} 1 & 0 \\ a & 1 \end{pmatrix} $$
 does the job, since
 
 $$ D(a) \cdot D(b) = \begin{pmatrix} 1 & 0 \\ a+b & 1 \end{pmatrix} = D(a+b).$$
+
+Lastly, one should always bear in mind the trivial representation that holds for all elements in a group with $D(g) = 1$ and we can see that it always fulfills the definition of a representation.
 
 ### Takeaways
 
