@@ -22,10 +22,10 @@ export default () => (
         </a>
         )
       </p>
-      <p>April 2020 playlist:</p>
+      <p>July 2020 playlist:</p>
       <iframe
-        title="April 2020"
-        src="https://open.spotify.com/embed/playlist/16Z04i8LjrNKHdAsDzQqxS"
+        title="July 2020"
+        src="https://open.spotify.com/playlist/0R2RVLVxPU4rQYIWzQV06Q?si=D3aLD4FiRSmpKPK5h2reyQ"
         width="610"
         height="80"
         allowtransparency="true"
